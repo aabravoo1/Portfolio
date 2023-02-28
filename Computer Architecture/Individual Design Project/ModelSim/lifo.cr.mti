@@ -1,0 +1,15 @@
+{C:/Users/andre/OneDrive/Documentos/tec/uni/4/Arquitectura/Parcial 3/Individual Design Project/tb_lifo.sv} {1 {vlog -work work -sv -stats=none {C:/Users/andre/OneDrive/Documentos/tec/uni/4/Arquitectura/Parcial 3/Individual Design Project/tb_lifo.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lifo
+
+Top level modules:
+	tb_lifo
+
+} {} {}} {C:/Users/andre/OneDrive/Documentos/tec/uni/4/Arquitectura/Parcial 3/Individual Design Project/lifo.sv} {1 {vlog -work work -sv -stats=none {C:/Users/andre/OneDrive/Documentos/tec/uni/4/Arquitectura/Parcial 3/Individual Design Project/lifo.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lifo
+
+Top level modules:
+	lifo
+
+} {} {}}
