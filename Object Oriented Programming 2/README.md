@@ -2,9 +2,9 @@
 Repository containing Objekt Orientierte Systeme 2 files and projects
 
 ## Project description
-This project generates a real time map of airplanes seen on a specified location and shows plane representations on the map using real life data
-The map is displayed in a window, which can be moved to show new locations or insert a longitude and latitude to move the center of the map elsewhere
-A table is presented with detailed information on the planes, an specific plane can be selected for further information on it
+This project generates a real time map of airplanes seen on a specified location and shows plane representations on the map using real life data.
+The map is displayed in a window, which can be moved to show new locations or insert a longitude and latitude to move the center of the map elsewhere.
+A table is presented with detailed information on the planes, an specific plane can be selected for further information on it.
 
 An image of the functioning project can be seen below
 ![image](https://user-images.githubusercontent.com/48959950/220785317-c4689952-f8e4-4059-be7e-6c17e7ca86c7.png)
