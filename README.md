@@ -9,7 +9,6 @@ This repository contains projects over the following topics:
 - Computer Architecture
 - Microcontrollers
 - Data Structures
-- Networks 1/2
 - Digital Signal Processing
 - Operating Systems
 - Embedded Systems
