@@ -10,7 +10,7 @@ This repository contains projects over the following topics:
 - Microcontrollers
 - Data Structures
 - Digital Signal Processing
-- Operating Systems
+- Interfaces
 - Embedded Systems
 - Computer Interfaces
 - Internet technologies
