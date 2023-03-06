@@ -8,9 +8,12 @@ The developed industrial headphones have the following characteristics:
 - Selection of audio channel through bluetooth mobile app
 - Voice filtering for noise cancelation
 - Volume control
+- Integrated microphone and speakers
 
 An image of the functional prototype can be found below:
-![image](https://user-images.githubusercontent.com/48959950/223004182-6938fa5e-afec-476d-9348-0efc9b339ef5.png)
+
+![image](https://user-images.githubusercontent.com/48959950/223004372-6de6e78c-8c53-40d2-a7b5-baf70470bafb.png)
+
 
 For an in-depth analysis of the system, refer to the file: Reporte Final-1.pdf
 
