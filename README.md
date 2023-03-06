@@ -13,5 +13,5 @@ This repository contains projects over the following topics:
 - Interfaces
 - Embedded Systems
 - Computer Interfaces
-- Internet technologies
-- Electronics Integration Project
+- Internet technologies (Web development)
+- Electronics Integration Project 
