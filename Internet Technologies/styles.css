@@ -1,0 +1,232 @@
+/* CSS by Andres Bravo*/
+/*Colors by Coolors.co*/
+
+:root{
+    --dark-blue: #006d77;
+    --light-blue:#83c5be;
+    --white: #edf6f9;
+    --pink: #ffddd2;
+    --salmon:#e29578;
+    --lavender: #6F5D6A;
+    --dark-purple:#1C0221;
+    --soft-purple:#EFCEFA;
+}
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wall{/*added for the js to mark walls*/
+    background-color: var(--dark-purple);
+}
+
+/*Limits the width of the component and makes it have a margin*/
+.limiter{
+    width: 80vmin;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;/*helps the body to be in line*/
+}
+
+header{
+    background-color: var(--dark-blue);
+    padding: 2%;
+    flex-grow: 0;
+}
+
+main{
+    padding: 0;
+    flex-grow: 1; /*allows the main to stretch and the footer to stay in the end*/
+    background-color: var(--white);
+}
+
+footer{
+    background-color: var(--dark-blue);
+    padding: 10px;
+    flex-grow: 0;
+}
+/*for fieldset: rectangles on the middle*/
+fieldset{
+    border-radius: 5px;
+    border-color: var(--salmon);
+}
+/*Square*/
+.square-holder{ /*contains the square*/
+    /*margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    background-color: grey;*/
+    position: relative;
+}
+
+.square-sizer{ /*is the square*/
+    padding-top: 100%;
+}
+
+.square-content{
+    /*background-color: var(--light-blue);*/
+    position: absolute;/*takes it out of the flow of divs, takes away the width*/
+    top: 0;/*positions it at the uppermost corner of the square*/
+    right: 0;
+    left: 0;
+    bottom: 0;/*by putting everything to 0 it spans to the 4 corners of the square, making it have the total area of the square*/
+}
+
+.row{
+    float: left; /*if not the browser would put them below each other*/
+    width: 100%;
+}
+
+.row>div{
+    width: calc(100% / 7.0);
+    float: left;
+}
+
+.cell{
+    background-color: var(--lavender);
+}
+
+.wayable{
+    background-color: var(--soft-purple);
+}
+
+.player-symbol, .target{
+    background-size: 600%, 100%;
+    background-image: url(./images/symbols.svg);
+}
+
+.player-symbol{
+    background-position: 0%, 0%;
+}
+
+.target{
+    background-position: 20%, 0%;
+}
+
+
+/*for the buttons*/
+.sizebar{
+    text-align: right;
+    padding-top: 0.5em;
+    clear:both
+}
+
+.sizebar>button{
+    width: 5em;
+    
+}
+
+.button:hover{
+    background-color: var(--pink);
+    cursor: pointer;
+}
+
+/*controls*/
+.direction-arrow{
+    cursor: pointer;
+    background-size: 600%, 100%;
+    background-image: url(./images/symbols.svg);
+}
+
+.direction-arrow:hover{
+    background-color: var(--dark-blue);
+    cursor: pointer;
+}
+
+.direction-arrow, .direction-spacer{
+    width: calc(33% - 2px);/*-2 to allow for a margin*/
+    height: calc(33% - 2px);
+    float: left; /*all 9 come after each other and only three in a line*/
+    border: 1px solid var(--dark-blue);
+    
+}
+
+.up{
+    background-position: 40%, 0%;
+}
+
+.right{
+    background-position: 60%, 0%;
+}
+
+.down{
+    background-position: 80%, 0%;
+}
+
+.left{
+    background-position: 100%, 0%;
+}
+
+.control-content{
+    background-color: var(--light-blue);
+}
+
+.control-holder{
+    width: 90%;
+    max-width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pop-up{
+    position: absolute; /*remove from flow*/
+    background-color: rgb(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    display: flex;/*jsutify content in the middle from top to bottom*/
+    flex-direction: column;
+    justify-content: center;
+    
+    
+
+}
+
+.pop-up>div{
+    width: 15em;
+    background-color: var(--soft-purple);
+    padding: 3em;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-left: auto;/*center in the middle from left to right*/
+    margin-right: auto;
+    border: #1C0221;
+
+}
+
+.pop-up>div>div{
+    margin: 1em;
+}
+
+.button{
+    width: auto;
+}
+/*landscape*/
+@media (orientation:landscape){
+    .limiter{
+        width: 80%;
+        max-width: 1000px;
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .main>fieldset{
+        width: 45%;
+    }
+}
